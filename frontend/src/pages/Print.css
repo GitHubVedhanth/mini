@@ -1,0 +1,184 @@
+
+.print-page {
+    padding: 20px;
+  }
+  
+  .print-controls {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .print-button {
+    background-color: #0ea5e9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .print-button:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 6 2 18 2 18 9'%3E%3C/polyline%3E%3Cpath d='M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2'%3E%3C/path%3E%3Crect x='6' y='14' width='12' height='8'%3E%3C/rect%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .print-container {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .print-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hospital-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0284c7;
+  }
+  
+  .hospital-address, .hospital-contact {
+    color: #64748b;
+    margin-top: 5px;
+  }
+  
+  .report-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .report-id {
+    color: #64748b;
+    margin-top: 5px;
+  }
+  
+  .print-divider {
+    height: 2px;
+    background-color: #0284c7;
+    margin: 20px 0;
+  }
+  
+  .print-section {
+    margin-bottom: 30px;
+  }
+  
+  .print-section h2 {
+    color: #0284c7;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 8px;
+  }
+  
+  .print-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .print-field {
+    margin-bottom: 12px;
+    display: flex;
+  }
+  
+  .print-label {
+    font-weight: bold;
+    width: 150px;
+    color: #475569;
+  }
+  
+  .print-value {
+    flex: 1;
+  }
+  
+  .image-section {
+    text-align: center;
+  }
+  
+  .print-image-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .print-image {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+  }
+  
+  .print-footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signature-block {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .signature-line {
+    height: 1px;
+    background-color: #475569;
+    margin-bottom: 5px;
+  }
+  
+  .signature-name {
+    font-weight: bold;
+  }
+  
+  .signature-title {
+    color: #64748b;
+    font-size: 0.9rem;
+  }
+  
+  .print-date {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.9rem;
+  }
+  
+  .print-disclaimer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #64748b;
+    font-style: italic;
+    border-top: 1px dashed #e2e8f0;
+    padding-top: 20px;
+  }
+  
+  .print-no-data {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .print-no-data p {
+    margin: 20px 0;
+  }
+  
+  /* Print-specific styles handled by App.css */
+  
